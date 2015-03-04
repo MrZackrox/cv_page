@@ -1,68 +1,264 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>Zack Reid- CV Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zack Reid- CV Page</title>
+    
+<!--Style-->
+    
+    <link href="cv_css.css" rel="stylesheet">
+
+<!--Kerning JS-->
+    
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+<!-- Kerning.js script from http://kerningjs.com/ -->
+    
+    <script src="kerning.js"></script>   
+    
+<!--Google Fonts-->    
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto' rel='stylesheet' type='text/css'>
     
 
-<link href="css/style.css" rel="stylesheet">
+    
+    <script>
+    
+    $(document).ready(function() {
+   var windowH = $(window).height();
+   var stickToBot = windowH - $('#nav').outerHeight(true);
+    
+    $('#nav').css({'top': stickToBot + 'px'});
+   
+   $(window).scroll(function() {
+       var scrollVal = $(this).scrollTop();
+        if ( scrollVal > stickToBot ) {
+            $('#nav').css({'position':'fixed','top' :'0px'});
+        } else {
+            $('#nav').css({'position':'absolute','top': stickToBot +'px'});
+        }
+    });
+ });
+    </script>
     
 </head>
 
 
 <body>
+
     
-<header>
-
-<nav> 
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#work">Work</a></li>
-</ul>   
-</nav>
-
-</header>
 
 
-<section id= "home">
+<section class= "home" id="home">
     
-    Just logo centered
+    <!--Nav-->
     
-    <h1>Graphic Designer, Photographer and Letter</h1>
+    <header>
+        <nav id="nav">
+            
+            <ul class="ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" title="About">About</a></li>
+                <li><a href="#education" title="Work">Education</a></li>
+                <li><a href="#work" title="Work">Work</a></li>
+                <li><a href="#contact" title="Contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        
+    </header>
+    
+   <!--Name + tagline-->
+    
+    
+    <div class= "name"><h1>Zack Reid</h1></div>
+    
+    <div class="tag"><h2>Designer, Photographer, Cinematographer and Letterer</h2></div>
 
 </section>
+    
+ <section class="me_circles">
+    
+     <img src="img/me_circles.png" class="me_c">
+    
+     <!--<img src="img/design.png" class="me_d">
+     <img src="img/filmography.png" class="me_f">
+     <img src="img/letter.png" class="me_l">
+     <img src="img/photography.png" class="me_p">
+     <img src="img/me.png" class="me_c">-->
+          
 
-    <section id= "about">
+     
+     
+     
+    </section>
+
+    <section class= "about">
+            
+        <h3 id="about">About</h3>
+
+            <p class="p_1"> Hi, my name is <span class="zack">Zack Reid</span>. I am a 19 year old who is currently studying IxD at The University of Ulster. I am currently in my first year of the course but its actually my second year at university. As I was on a course called IMD but I found out after a year that the course was not for me.</p>
+
+            <p class="p_2"> So now I have imbarked on a new ADVENTURE. On this adventure I have realised one thing I want to be a DESIGNER. I like the coding side but I find more injoyment in plucking somthing out of my head and turning it into a thing I can see. This can both be graphic and for the web though I am starting to pull more towards graphic.</p>
+
+            <p>You can see to the left what makes ME at this very moment. I have all ways had a passion for photography and filmography from a young age as I grew up in a house were it was important to us. Then as I got older and into this course I realised that I had a desire to create and that when I was going to uni.</p>
+        
+        
+        
+        <h3>Interest's</h3>
+        
+            <p>I am a healthy person, not in what I eat but I run, lift wights and try to ride my bike as much as I can. I am all ready fitter than I have ever been in my life, now it just a matter of keeping it up.</p>
+
+                 <img src="img/bike.png" class="bike">
+
+            <p>The biggest goal in my life is to travel around the world. I have all ready been backpacking around Europe and I loved every moment of it. This trip has only fuled my desire to see the other countries I haven't seen.</p>
+
+            <p>Through out my life music has been in it. I would say I have a very wide range in terms of what music I listien to. This an be from Artic Monkeys too Beethoven and everything inbetween.</p>
+
+            <p>As you know I done MIA which just tells you I will like a good movie, even the nost so good ones. </p>
+
+            <p>Photography</p>
+
+        <h3>History</h3>
+        
+            <p>My first subject that made me think about the design of something was media. I picked this class for my GCSE and loved every moment of it. I loved how you could create something and it could target a certain TA with what type you use to the images on the cover. I then followed this on and done it for A-level, though at this time I got the opertunity to have Moving Image Arts as a class for A-level. Out of the two year's I learnt a great deal about, how you have to see five steps ahead in terms of what a ceratin camera angle will do for the film as a whole. During this time I pushed myself to be out of the box with my projects and I can happly say it succeed. For my last project in finial year I went all out and done a stop motion light painting video which was one of the most rewarding thing's I have done. I spent hours out in the cold getting five second of footage, though it was all worth it to see it fully complete. I would search for Rippled if you wan't to see my insiration for the project.</p>
+</section>
+        <p class="p_3"> </p>
     
-    <h2>About</h2>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh ipsum, pretium maximus elit vitae, scelerisque sollicitudin elit. Suspendisse maximus elit nulla, quis vestibulum ipsum blandit at. Integer laoreet purus fermentum mauris mollis ultricies. Etiam imperdiet consectetur ipsum ac pharetra. Pellentesque vitae dictum purus. Cras mauris augue, commodo sed auctor quis, ultricies a lorem. Maecenas congue rhoncus lorem vel efficitur. Nam ultricies finibus nisl, non auctor est venenatis in. Sed vel libero nulla. Etiam dignissim nec quam ut tempus. Vivamus sapien lectus, commodo nec commodo non, vulputate a lacus. Vivamus risus leo, eleifend et purus vitae, accumsan ullamcorper ipsum. Nam volutpat lobortis dignissim. In condimentum rutrum efficitur. Ut et neque id orci vestibulum tristique.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh ipsum, pretium maximus elit vitae, scelerisque sollicitudin elit. Suspendisse maximus elit nulla, quis vestibulum ipsum blandit at. Integer laoreet purus fermentum mauris mollis ultricies. Etiam imperdiet consectetur ipsum ac pharetra. Pellentesque vitae dictum purus. Cras mauris augue, commodo sed auctor quis, ultricies a lorem. Maecenas congue rhoncus lorem vel efficitur. Nam ultricies finibus nisl, non auctor est venenatis in. Sed vel libero nulla. Etiam dignissim nec quam ut tempus. Vivamus sapien lectus, commodo nec commodo non, vulputate a lacus. Vivamus risus leo, eleifend et purus vitae, accumsan ullamcorper ipsum. Nam volutpat lobortis dignissim. In condimentum rutrum efficitur. Ut et neque id orci vestibulum tristique.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh ipsum, pretium maximus elit vitae, scelerisque sollicitudin elit. Suspendisse maximus elit nulla, quis vestibulum ipsum blandit at. Integer laoreet purus fermentum mauris mollis ultricies. Etiam imperdiet consectetur ipsum ac pharetra. Pellentesque vitae dictum purus. Cras mauris augue, commodo sed auctor quis, ultricies a lorem. Maecenas congue rhoncus lorem vel efficitur. Nam ultricies finibus nisl, non auctor est venenatis in. Sed vel libero nulla. Etiam dignissim nec quam ut tempus. Vivamus sapien lectus, commodo nec commodo non, vulputate a lacus. Vivamus risus leo, eleifend et purus vitae, accumsan ullamcorper ipsum. Nam volutpat lobortis dignissim. In condimentum rutrum efficitur. Ut et neque id orci vestibulum tristique.</p>
     
+<section class="tables">
+    <table id="imd">    
+        <thead>
+            <caption>Interactive Multimedia Design- August 2014</caption>
+        <tr>
+            <th>Subject</th>
+                <th>Grade</th>
+
+                    <tr>
+                        <td>Media</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>ICT</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>A</td>
+                    </tr>
+        </tr>
+        </thead>
+    </table>
+      
+  <!--Table GCSE-->
+     
+    <table class="gcse">
+        <caption>GCSE- August 2010</caption>
+        <thead>        
+        <tr>
+            <th>Subject</th>
+                <th>Grade</th>
+
+                    <tr>
+                        <td>Media</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>ICT</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Technology</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>RE</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Photography</td>
+                        <td>A</td>
+                    </tr>
+        </tr>
+        </thead>
+    </table>
+    
+         <!--Table A-level-->
+    <table class="a-level">    
+        <thead>
+            <caption>A-level- August 2013</caption>
+        <tr>
+            <th>Subject</th>
+                <th>Grade</th>
+
+                    <tr>
+                        <td>Media</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>ICT</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>MIA</td>
+                        <td>C</td>
+                    </tr>       
+        </tr>
+        </thead>
+    </table>
+</section>
+    
+<!--Work section-->
+
+    <section class="work"> 
+            <h3>Work</h3>
+                <p>This is some of the work that I have done while on this course and on my own.</p>
+        <div class="container">
+     <div> <a href="http://mrzackrox.github.io/john-baskerville/version-8-mine.html" target="_blank"><img src="img/john-01.png"</a></div>
+   <div><a href="http://mrzackrox.github.io/GitHub/cv_page/img/bookcover1.png" target="_blank"><img src="img/bookcover1.png" class="book"></a></div>
+   <div><a href="http://mrzackrox.github.io/GitHub/cv_page/img/bookcover2.png" target="_blank"><img src="img/bookcover2.png" class="book"></a></div>
+   <div><a href="http://mrzackrox.github.io/GitHub/cv_page/img/bookcover3.png" target="_blank"><img src="img/bookcover3.png" class="book"></a></div>
+</div>
+
+            </div>
+               
+    </section>
+    
+    <section class="contact">
+    
+        <h3>Pick Me</h3>
+        
+        <p>The reason I fell that you should pick me for this adventure is because I am slowly evolving into a designer of sorts and I am starting to get how all this works. I fell that it would help me trumendolisy if I was to be under the guidenss of the team and would help me.</p>
+
     </section>
     
     
-    <section id="work">
-    
-    <h2>Work</h2>
-        
-        <p>A bit about the work</p>
-        
-        <p>Grid of images when once clicked open up to work.</p>
-    
-    
-    </section>
 
-    <section id="bottom">
+    <section class="contact">
     
-    <p>You can find me at these links, if you want to have a chat.</p>
+    <h3>Contact Me</h3>
     
-        
-        <p>icons as links.</p>
+    <p><span class="twitter">Twitter:</span> <a href="https://twitter.com/MrZackrox" target="_blank"> @MrZackrox</a></p>
+    <p><span class="twitter">Email:</span> <a href="mailto:zackreid@outlook.com"> zackreid@outlook.com</a></p>
+    
     </section>
     
 </body>
