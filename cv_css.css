@@ -216,23 +216,6 @@ a:visited {
 }
 
 
-/*Layout for contact section*/
-
-.contact
-{
- margin-top: 5%;
- margin-left: 19%;
- margin-right: 30%;
- margin-bottom: 5%;
-}
-
-.twitter
-{
-     font-family: 'Lato', sans-serif;
-     font-size: 1.200em;
-     font-weight: 600;
-}
-
 
 /*Layout for tables*/
 
@@ -276,20 +259,19 @@ caption
  margin-right: 52%;
 }
 
-.imd
+/*Layout for contact section*/
+
+.contact
 {
- margin
+ margin-top: 3%;
+ margin-left: 19%;
+ margin-right: 30%;
+ margin-bottom: 4%;
 }
 
-.gcse
+.twitter
 {
- margin-left: 10%;
- position: relative;
-}
-
-.a-level
-{
- 
- margin: 0px auto;
-    position: relative;
+     font-family: 'Lato', sans-serif;
+     font-size: 1.200em;
+     font-weight: 600;
 }
