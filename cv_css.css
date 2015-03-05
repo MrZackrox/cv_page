@@ -201,7 +201,7 @@ a:visited {
   margin: 10px;
   width: 200px;
   height: 200px;
-  background: white ; 
+  background: white; 
   opacity: 0.7;
   float: left;
   color: #fff;
@@ -213,6 +213,11 @@ a:visited {
 {
  width: 150px;
  height: 200px;
+}
+
+.mono
+{
+margin-top: 30%;
 }
 
 
