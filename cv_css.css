@@ -82,7 +82,7 @@ p
 	position: relative;
 	margin-top: -0%;
     margin-left: -3%;
-    margin-bottom: 155%;
+    margin-bottom: 162%;
     z-index: 9;
 }
 
@@ -167,9 +167,17 @@ a:visited {
  margin-right: 49%;
 }
 
+.r_img
+{
+ margin-top: -45%;
+ margin-left: 60%;
+   
+}
+
 .bike
 {
- margin-right: -20%;
+ margin-bottom: 0%;
+ margin-left: 15%;
  
 }
 
@@ -263,7 +271,7 @@ caption
 
 .tables
 {
- margin-top: 5%;
+ margin-top: 35%;
  margin-left: 19%;
  margin-right: 52%;
 }
