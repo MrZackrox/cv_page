@@ -1,7 +1,7 @@
-# CV Page
+Inforgrappic
+============
 
-This is a CV that I have made for a summer internship at Fresh Made Media.
+Below you can see an infographic that I made for my course work. We were given data about the death pentaly and had to turn it into visual representation so that it oculd be understood easier.
 
-[Cv for Fresh Made Media](http://mrzackrox.github.io/cv_page/cv_page.html)
-
+![inforgaphic](img/infographic.png)
 
