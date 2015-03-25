@@ -27,7 +27,7 @@ h1,h2,h3,p
       
     }
 
-h1,h2
+h1
     {
      text-transform: uppercase;  
     }
@@ -66,6 +66,24 @@ p
      line-height: 2em;
     }
 
+.aboutc
+{
+  color: red;
+  opacity: 0.5;
+}
+
+.workc
+{
+ color: green;
+ opacity: 0.5;
+}
+
+.contactc
+{
+ color: blue;
+ opacity: 0.5;
+}
+
 /*Style for home section*/
 
 
@@ -77,7 +95,7 @@ p
     background-color: #FFFFFF;
     opacity: 0.92;
 	position: relative;
-	margin-top: -0%;
+	margin-top: %;
     margin-left: -19.1%;
     margin-bottom: 155%;
     z-index: 9;
@@ -110,6 +128,7 @@ a:link {
 
 a:hover {
     font-weight: 900;
+    opacity: 0.5;
 }
 
 a.homen:hover {color: yellow;}
@@ -143,30 +162,32 @@ a:visited {
 .name
 {
  margin-left: -20%;
+ margin-top: 50%;
  
 }
 
 .tag
 {
- margin-top: 2%;
- margin-left: 29%;
+ margin-top: -1%;
+ margin-left: 31%;
  margin-right: 20%;
 }
 
 .me_c
 {
  margin-left: 56%;
- margin-top: -15%;
+ margin-top: -17%;
  z-index: 1;
 }
 
 
 /*Layout for about section*/
 
+
 .about
 {
  width: 32%;
- margin-top: 1%;
+ margin-top: 6%;
  margin-left: 15%;
  margin-right: 53%;
 }
@@ -188,7 +209,7 @@ a:visited {
 .pick
 {
  width: 32%;
- margin-top: 5%;
+ margin-top: 4%;
  margin-left: 15%;
  margin-right: 53%;
 }
@@ -197,7 +218,7 @@ a:visited {
 
 .work
 {
- margin-top: 38%;
+ margin-top: 35%;
  margin-left: 15%;
  margin-right: 53%;
 }
@@ -237,7 +258,7 @@ margin-top: 30%;
 
 .contact
 {
- margin-top: 5%;
+ margin-top: 3%;
  margin-left: 15%;
  margin-right: 30%;
  margin-bottom: 4%;
@@ -270,7 +291,7 @@ margin-top: 30%;
 	position: relative;
 	margin-top: -0%;
     margin-left: -19.1%;
-    margin-bottom: 195%;
+    margin-bottom: 200%;
     z-index: 9;
 }
 
