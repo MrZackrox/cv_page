@@ -131,7 +131,7 @@ a:hover {
     opacity: 0.5;
 }
 
-a.homen:hover {color: yellow;}
+a.homen:hover {color: #B3BF6A;}
 
 a.aboutn:hover {color: red;}
 
@@ -162,7 +162,7 @@ a:visited {
 .name
 {
  margin-left: -20%;
- margin-top: 50%;
+ margin-top: 52%;
  
 }
 
@@ -176,7 +176,7 @@ a:visited {
 .me_c
 {
  margin-left: 56%;
- margin-top: -17%;
+ margin-top: -10%;
  z-index: 1;
 }
 
@@ -187,7 +187,7 @@ a:visited {
 .about
 {
  width: 32%;
- margin-top: 6%;
+ margin-top: 1%;
  margin-left: 15%;
  margin-right: 53%;
 }
@@ -199,11 +199,76 @@ a:visited {
    
 }
 
+.clapper
+{
+ margin-top: -90%;
+ margin-left: 83%;
+}
+
+.headphone
+{
+ margin-top: -10%;
+ margin-left: 77%;
+}
+
+.backpack
+{
+ margin-top: %;
+ margin-bottom: %;
+ margin-left: 55%;
+}
+
+
+.camera
+{
+ margin-top: 5%;
+ margin-left:58%;
+}
+
+.cameraq
+{
+ z-index: 77;
+ margin-top: 3%;
+ margin-bottom: %;
+ margin-left: 3%;   
+}
+
+.cameraq {
+    display: none;
+}
+
+
+.r_img_3:hover .cameraq
+{
+    display: flex;   
+}
+
+
+
+
 .bike
 {
+ margin-top: 7%;
  margin-bottom: 0%;
- margin-left: 15%;
+ margin-left: 12%;
  
+}
+
+.bikeq
+{
+ z-index: 66;
+ margin-top: %;
+ margin-bottom: -40%;
+ margin-left: 17%;   
+}
+
+.bikeq {
+    display: none;
+}
+
+.r_img:hover .bikeq 
+{
+    display: block;   
 }
 
 .pick
